@@ -1,0 +1,10 @@
+version: "1"
+rules:
+  - base: master
+    upstream: codebling:master
+    mergeMethod: merge
+    mergeUnstable: false
+    conflictReviewers:
+      - alin23
+      - MoroJr
+      - OvidiuCode
